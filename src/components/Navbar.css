@@ -1,0 +1,84 @@
+/* Common styles for both desktop and mobile */
+.navbarWrapper img {
+    height: 15vh;
+    width: 15vh;
+    padding: 1vh;
+    margin-right: 5vh;
+    margin-top: -3vh;
+}
+
+.navbarWrapper {
+    margin-top: -1vh;
+    margin-left: -2vh;
+    justify-content: space-between; /* Use space-between to push the h1 and ul to opposite ends */
+    text-align: left;
+    display: flex;
+    width: 100%;
+    padding: 10px; /* Optional: Add padding for better spacing */
+    border: 0.2px solid rgb(111, 109, 109);
+    height: 11vh;
+}
+
+.navbarWrapper h1 {
+    font-size: 7.5vh;
+    margin-top: 1vh;
+    margin-left: 0;
+}
+
+.navbarWrapper ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 5vh;
+    margin-top: 2vh;
+}
+
+.navbarWrapper li {
+    display: flex;
+    align-items: center; /* Center vertically */
+    font-size: 5vh;
+    margin-right: 1px;
+    height: 11vh; /* Adjust the height as needed */
+    padding: 5px;
+    
+    margin-top: -3.3vh;
+}
+.navbarWrapper li:hover {
+    background-color: rgb(88, 203, 203); /* Change background color on hover */
+ 
+
+}
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .navbarWrapper {
+        flex-direction: column; /* Change to column layout for mobile devices */
+        align-items: center; /* Center align items */
+        height: auto;
+    }
+
+    .navbarWrapper ul {
+        margin-top: 1vh; /* Adjust margin-top for spacing */
+        margin-left: 0; /* Remove margin-left for centering */
+        
+    }
+    .navbarWrapper li{
+        font-size: 30%;
+        
+    }
+    
+    .navbarWrapper h1 {
+      text-align: center;
+    }
+    .navbarWrapper li {
+        font-size: 5vh;
+        margin-right: 1px;
+        height: 5vh;
+        padding: 5px;
+        margin-top: -3vh;
+       
+        height: 11vh;
+       
+    }
+}

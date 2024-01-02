@@ -1,0 +1,120 @@
+.contentWrapper{
+    display: flex;
+    width: 102%;
+    margin-left: -2vh;
+    justify-content: space-between;
+    margin-top: 1vh;
+}.boxButton {
+    width: 5vh; /* Adjust the width as needed */
+    height: 5vh; /* Adjust the height as needed */
+    transition:  0.1s ease-in-out;
+    margin-right: 3.5vh; /* Adjust the margin between boxes as needed */
+    margin-top : 10%;
+    margin-left: 2vh;
+}
+
+.boxPrevImage {
+    width: 25vh; /* Adjust the width as needed */
+    height: 25vh; /* Adjust the height as needed */
+    transition:  0.1s ease-in-out;
+    margin-right: 2vh; /* Adjust the margin between boxes as needed */
+}
+
+.boxNextImage {
+    width: 25vh; /* Adjust the width as needed */
+    height: 25vh; /* Adjust the height as needed */
+    transition:  0.1s ease-in-out;
+    margin-right: 2vh; /* Adjust the margin between boxes as needed */
+    text-align: center;
+}
+.boxNextImage .carImage img{
+    width: 25vh; /* Adjust the width as needed */
+    height: 15vh; /* Adjust the height as needed */
+   
+    margin-right: 2vh; /* Adjust the margin between boxes as needed */
+}
+.boxNextImage .logoImage img{
+    width: 20vh; /* Adjust the width as needed */
+    height: 5vh; /* Adjust the height as needed */
+   
+    margin-right: 2vh; /* Adjust the margin between boxes as needed */
+}
+.boxPrevImage {
+    width: 25vh; /* Adjust the width as needed */
+    height: 25vh; /* Adjust the height as needed */
+   
+    margin-right: 2vh; /* Adjust the margin between boxes as needed */
+    text-align: center;
+}
+.boxPrevImage .carImage img{
+    width: 25vh; /* Adjust the width as needed */
+    height: 15vh; /* Adjust the height as needed */
+   
+    margin-right: 2vh; /* Adjust the margin between boxes as needed */
+}
+.boxPrevImage .logoImage img{
+    width: 20vh; /* Adjust the width as needed */
+    height: 5vh; /* Adjust the height as needed */
+   
+    margin-right: 2vh; /* Adjust the margin between boxes as needed */
+}
+.boxCurrentImage {
+    display: flex; /* Set to flex container */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center items horizontally */
+    width: 80vh;
+    height: 60vh;
+   
+    margin-right: 2vh;
+    z-index: 1;
+    text-align: center;
+}
+.carImage img {
+    width: 70vh; /* Adjust the width as needed */
+    height: 40vh; /* Adjust the height as needed */
+   
+    margin-right: 2vh; /* Adjust the margin between boxes as needed */
+ 
+   
+}
+.logoImage img{
+    width: 40vh; /* Adjust the width as needed */
+    height: 10vh; /* Adjust the height as needed */
+   
+    margin-right: 2vh; /* Adjust the margin between boxes as needed */
+}
+.boxButton img{
+    height: 5vh;
+    width: 5vh;
+}
+.orderNow img{
+    height: 8vh;
+    width: 20vh;
+}
+.currentImageList{
+
+  
+    text-align: center;
+}
+@media only screen and (max-width: 768px) {
+    .hideOnMobile {
+      display: none;
+    }
+    .carImage img {
+        width: 40vh; /* Adjust the width as needed */
+        height: 20vh; /* Adjust the height as needed */
+       
+        margin-right: 2vh; /* Adjust the margin between boxes as needed */
+        z-index: 1;
+       
+    }
+    .boxButton {
+        width: 5vh; /* Adjust the width as needed */
+        height: 5vh; /* Adjust the height as needed */
+       
+         /* Adjust the margin between boxes as needed */
+        margin-top : 40%;
+    
+    }
+    
+  }
